@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comedy Vocabulary - Learn Sophisticated Words from Stand-Up Comics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #ffffff;
+            min-height: 100vh;
+            color: #2b2b2b;
+            line-height: 1.6;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; }
+        
+        header {
+            text-align: center;
+            padding: 30px 0 20px;
+            border-bottom: 3px double #e0e0e0;
+            margin-bottom: 30px;
+        }
+        h1 { 
+            font-size: 2rem; 
+            color: #1a1a1a; 
+            font-weight: normal;
+            font-style: italic;
+            font-family: 'Georgia', serif;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #e8e8e8;
+            padding-bottom: 12px;
+        }
+        .nav-tab {
+            padding: 8px 16px;
+            background: transparent;
+            border: none;
+            color: #555;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-family: Georgia, serif;
+            transition: all 0.2s ease;
+        }
+        .nav-tab:hover { color: #1a1a1a; }
+        .nav-tab.active { 
+            color: #1a1a1a; 
+            font-style: italic;
+            border-bottom: 2px solid #1a1a1a;
+        }
+        
+        .main-content {
+            display: block;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        /* Left sidebar filter panel - minimal, no background bar */
+        .filter-sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: 240px;
+            background: #ffffff;
+            transform: translateX(-240px);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 80px 15px 20px;
+        }
+        .filter-sidebar.open {
+            transform: translateX(0);
+        }
+        
+        /* Sidebar toggle arrow/tab - minimal */
+        .filter-sidebar-toggle {
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: transparent;
+            color: #1a1a1a;
+            border: none;
+            cursor: pointer;
+            z-index: 1001;
+            transition: left 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 4px;
+            font-size: 16px;
+        }
+        .filter-sidebar-toggle:hover {
+            color: #555;
+        }
+        .filter-sidebar.open + .filter-sidebar-toggle {
+            left: 240px;
+        }
+        .filter-sidebar-toggle .arrow-icon {
+            transition: transform 0.3s ease;
+        }
+        .filter-sidebar.open ~ .filter-sidebar-toggle .arrow-icon,
+        .filter-sidebar-toggle.open .arrow-icon {
+            transform: rotate(180deg);
+        }
+        
+        .comedian-checkboxes {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .comedian-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            padding: 3px 0;
+        }
+        .comedian-checkbox input[type="checkbox"] {
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .comedian-checkbox span {
+            color: #333;
+            line-height: 1.3;
+        }
+        .comedian-count {
+            font-size: 0.75rem;
+            color: #999;
+            margin-left: auto;
+        }
+        
+        /* Overlay when sidebar is open */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.3);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .sidebar-overlay.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .word-card { 
+            background: #ffffff; 
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .image-section {
+            position: relative;
+        }
+        .comedian-image-container {
+            width: 100%;
+        }
+        .comedian-image-container.hidden {
+            visibility: hidden;
+        }
+        .comedian-image {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+            border: 1px solid #e8e8e8;
+        }
+        .image-credit {
+            text-align: right;
+            font-size: 0.7rem;
+            color: #888;
+            font-style: italic;
+            margin-top: 6px;
+            font-family: Arial, sans-serif;
+        }
+        .image-credit a {
+            color: #888;
+            text-decoration: none;
+        }
+        .image-credit a:hover {
+            text-decoration: underline;
+        }
+        
+        .content-section {
+            padding: 10px 0;
+        }
+        
+        .word-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .word-text { 
+            font-size: 2.5rem; 
+            font-weight: normal;
+            font-style: italic;
+            color: #1a1a1a; 
+            font-family: Georgia, serif;
+        }
+        .word-source {
+            display: inline-block;
+            background: #f8f8f8;
+            color: #666;
+            padding: 5px 12px;
+            font-size: 0.8rem;
+            font-family: 'Arial', sans-serif;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .definition {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            padding: 15px 18px;
+            background: #fafafa;
+            color: #333;
+            border-left: 3px solid #1a1a1a;
+            font-family: Georgia, serif;
+        }
+        
+        .quote-section {
+            padding: 18px;
+            background: #fff;
+            border: 1px solid #e8e8e8;
+        }
+        .quote-text { 
+            font-size: 1rem; 
+            line-height: 1.8; 
+            color: #333;
+            font-family: Georgia, serif;
+        }
+        .word-highlight { 
+            font-weight: bold;
+            font-style: italic;
+            background: #f0f0f0;
+            padding: 1px 4px;
+        }
+        
+        .filter-section {
+            background: #fafafa;
+            padding: 15px;
+            margin-bottom: 25px;
+            border: 1px solid #e8e8e8;
+        }
+        .filter-label { 
+            display: block; 
+            margin-bottom: 10px; 
+            color: #555; 
+            font-size: 0.9rem;
+            font-family: Georgia, serif;
+            font-style: italic;
+        }
+        .filter-select {
+            width: 100%;
+            padding: 10px 12px;
+            background: #ffffff;
+            border: 1px solid #d0d0d0;
+            color: #1a1a1a;
+            font-size: 0.95rem;
+            font-family: Georgia, serif;
+        }
+        .filter-select option { 
+            background: #ffffff; 
+            color: #1a1a1a; 
+        }
+        
+        .word-list { 
+            display: grid; 
+            grid-template-columns: 1fr; 
+            gap: 0;
+            margin-bottom: 80px;
+        }
+        .word-item {
+            background: #ffffff;
+            padding: 18px 22px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-bottom: 1px solid #e8e8e8;
+            display: grid;
+            grid-template-columns: 200px 1fr 200px;
+            gap: 20px;
+            align-items: center;
+        }
+        .word-item:hover { 
+            background: #fafafa;
+        }
+        .word-item:last-child {
+            border-bottom: none;
+        }
+        .word-item-word { 
+            font-size: 1.3rem; 
+            font-style: italic;
+            color: #1a1a1a; 
+            font-family: Georgia, serif;
+        }
+        .word-item-def { 
+            font-size: 0.9rem; 
+            color: #666; 
+            line-height: 1.5;
+            font-family: Georgia, serif;
+        }
+        .word-item-comedian { 
+            font-size: 0.8rem; 
+            color: #888; 
+            font-family: Arial, sans-serif;
+            text-align: right;
+        }
+        
+        .stats { 
+            text-align: center; 
+            padding: 20px; 
+            color: #888; 
+            font-size: 0.85rem;
+            font-style: italic;
+            font-family: Georgia, serif;
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .hidden { display: none; }
+        
+        @media (max-width: 900px) {
+            .filter-sidebar {
+                width: 260px;
+                transform: translateX(-240px);
+            }
+            .filter-sidebar.open + .filter-sidebar-toggle {
+                left: 260px;
+            }
+            .word-card { 
+                grid-template-columns: 1fr;
+            }
+            .comedian-image {
+                height: 280px;
+            }
+            .word-item {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            .word-item-comedian {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Comedy Vocabulary</h1>
+        </header>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showView('random')">Random Word</button>
+            <button class="nav-tab" onclick="showView('browse')">Browse All</button>
+        </div>
+
+        <!-- Left sidebar filter -->
+        <div class="filter-sidebar" id="filter-sidebar">
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #999; font-style: italic; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">
+                <span>Comedians</span>
+                <button onclick="toggleAllComedians()" style="background: none; border: none; color: #999; font-size: 0.7rem; cursor: pointer; font-style: italic;">toggle all</button>
+            </div>
+            <div class="comedian-checkboxes" id="comedian-checkboxes">
+                <!-- Checkboxes will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Sidebar toggle arrow -->
+        <button class="filter-sidebar-toggle" id="filter-sidebar-toggle" onclick="toggleComedianFilter()">
+            <span class="arrow-icon">▶</span>
+        </button>
+        
+        <!-- Overlay -->
+        <div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleComedianFilter()"></div>
+
+        <div class="main-content">
+            <div id="random-view">
+                <div class="word-card" id="word-card">
+                <div class="image-section">
+                    <div class="comedian-image-container" id="image-container">
+                        <img class="comedian-image" id="comedian-image" src="" alt="Comedian">
+                        <div class="image-credit">
+                            Image: <a href="https://scrapsfromtheloft.com" target="_blank" rel="noopener">scrapsfromtheloft.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section">
+                    <div class="word-header">
+                        <div class="word-text" id="word-text">Loading...</div>
+                        <div class="word-source" id="word-source">Special</div>
+                    </div>
+
+                    <div class="definition" id="word-definition">
+                        Click the button above to generate a random sophisticated word from comedy transcripts!
+                    </div>
+
+                    <div class="quote-section">
+                        <p class="quote-text" id="quote-text">"..."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Simple text link at bottom -->
+            <div style="text-align: center; padding: 20px; border-top: 1px solid #e8e8e8; margin-top: 40px;">
+                <span style="color: #999; font-style: italic; font-size: 0.9rem; cursor: pointer;" onclick="generateRandomWord()">Press spacebar or click here for another word</span>
+            </div>
+                </div>
+            </div>
+
+        <div id="browse-view" class="hidden">
+            <div class="main-content">
+                <div>
+                    <div class="word-list" id="word-list"></div>
+                    <div class="stats" id="stats"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        let vocabulary = [];
+        let currentWord = null;
+        let lastRandomIndex = -1;
+        let selectedComedians = new Set(); // Track which comedians are selected
+
+        // Better random function - uses crypto API if available for better randomness
+        function getBetterRandomIndex(max) {
+            if (max <= 1) return 0;
+            // Use crypto API for better randomness if available
+            if (window.crypto && window.crypto.getRandomValues) {
+                const array = new Uint32Array(1);
+                window.crypto.getRandomValues(array);
+                return array[0] % max;
+            }
+            // Fallback to Math.random with time-based seed
+            const seed = Date.now() + Math.random();
+            return Math.floor((seed * 9301 + 49297) % 233280 / 233280 * max);
+        }
+
+        // Get filtered vocabulary based on selected comedians
+        function getFilteredVocabulary() {
+            if (selectedComedians.size === 0) return vocabulary;
+            return vocabulary.filter(v => selectedComedians.has(v.comedian));
+        }
+
+        // Toggle the comedian filter sidebar
+        function toggleComedianFilter() {
+            const sidebar = document.getElementById('filter-sidebar');
+            const toggle = document.getElementById('filter-sidebar-toggle');
+            const overlay = document.getElementById('sidebar-overlay');
+            sidebar.classList.toggle('open');
+            toggle.classList.toggle('open');
+            if (sidebar.classList.contains('open')) {
+                overlay.classList.add('visible');
+            } else {
+                overlay.classList.remove('visible');
+            }
+        }
+
+        // Populate comedian checkboxes - sorted by last name
+        function populateComedianCheckboxes() {
+            const comedians = [...new Set(vocabulary.map(v => v.comedian))];
+            // Sort by last name (handle names with spaces)
+            comedians.sort((a, b) => {
+                const aLast = a.split(' ').pop().toLowerCase();
+                const bLast = b.split(' ').pop().toLowerCase();
+                return aLast.localeCompare(bLast);
+            });
+            
+            const container = document.getElementById('comedian-checkboxes');
+            container.innerHTML = '';
+            
+            comedians.forEach(comedian => {
+                const count = vocabulary.filter(v => v.comedian === comedian).length;
+                const label = document.createElement('label');
+                label.className = 'comedian-checkbox';
+                label.innerHTML = `
+                    <input type="checkbox" value="${comedian}" checked onchange="updateSelectedComedians()">
+                    <span>${comedian}</span>
+                    <span class="comedian-count">(${count})</span>
+                `;
+                container.appendChild(label);
+                selectedComedians.add(comedian);
+            });
+        }
+
+        // Update selected comedians set based on checkbox states - auto refreshes word
+        function updateSelectedComedians() {
+            selectedComedians.clear();
+            document.querySelectorAll('#comedian-checkboxes input[type="checkbox"]:checked').forEach(cb => {
+                selectedComedians.add(cb.value);
+            });
+            
+            // Generate a new word with the new filter (auto-refresh)
+            generateRandomWord();
+        }
+
+        // Quick toggle: uncheck all if all are checked, otherwise check all - auto refreshes
+        function toggleAllComedians() {
+            const checkboxes = document.querySelectorAll('#comedian-checkboxes input[type="checkbox"]');
+            const allComedians = [...new Set(vocabulary.map(v => v.comedian))];
+            const allSelected = selectedComedians.size === allComedians.length;
+            
+            checkboxes.forEach(cb => {
+                cb.checked = !allSelected;
+            });
+            
+            updateSelectedComedians(); // This auto-generates a new word
+        }
+
+        async function loadVocabulary() {
+            try {
+                const response = await fetch('vocabulary.json?v=' + Date.now());
+                const data = await response.json();
+                vocabulary = data.vocabulary || data;
+                populateComedianCheckboxes();
+                generateRandomWord();
+            } catch (error) {
+                console.error('Error loading vocabulary:', error);
+                document.getElementById('word-text').textContent = 'Error loading data';
+            }
+        }
+
+        function generateRandomWord() {
+            const filtered = getFilteredVocabulary();
+            if (filtered.length === 0) {
+                document.getElementById('word-text').textContent = 'No words';
+                document.getElementById('word-definition').textContent = 'Select at least one comedian from the filter above.';
+                document.getElementById('quote-text').innerHTML = '"..."';
+                document.getElementById('word-source').textContent = '';
+                return;
+            }
+            let randomIndex;
+            // Ensure we don't get the same word twice in a row
+            do {
+                randomIndex = getBetterRandomIndex(filtered.length);
+            } while (randomIndex === lastRandomIndex && filtered.length > 1);
+            lastRandomIndex = randomIndex;
+            currentWord = filtered[randomIndex];
+
+            document.getElementById('word-text').textContent = currentWord.word;
+            document.getElementById('word-source').textContent = `${currentWord.comedian} • ${currentWord.special}`;
+            document.getElementById('word-definition').textContent = currentWord.definition;
+            
+            const highlightedContext = currentWord.context.replace(/<b>([^<]+)<\/b>/gi, '<span class="word-highlight">$1</span>');
+            document.getElementById('quote-text').innerHTML = `"${highlightedContext}"`;
+            
+            const img = document.getElementById('comedian-image');
+            const imgContainer = document.getElementById('image-container');
+            img.src = currentWord.image;
+            img.style.display = 'block';
+            img.onerror = function() { 
+                imgContainer.classList.add('hidden');
+            };
+            img.onload = function() {
+                imgContainer.classList.remove('hidden');
+            };
+        }
+
+        function showView(viewName) {
+            document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Hide all main content areas
+            document.getElementById('random-view').classList.add('hidden');
+            document.getElementById('browse-view').classList.add('hidden');
+            document.getElementById(`${viewName}-view`).classList.remove('hidden');
+
+            // Show/hide sidebar based on view
+            const sidebar = document.getElementById('filter-sidebar');
+            const toggle = document.getElementById('filter-sidebar-toggle');
+            const overlay = document.getElementById('sidebar-overlay');
+            if (viewName === 'random') {
+                sidebar.style.display = 'block';
+                toggle.style.display = 'flex';
+                overlay.style.display = 'block';
+            } else {
+                sidebar.style.display = 'none';
+                toggle.style.display = 'none';
+                overlay.style.display = 'none';
+                overlay.classList.remove('visible');
+            }
+
+            if (viewName === 'browse') renderWordList(getFilteredVocabulary());
+        }
+
+        function filterWords() {
+            const selectedComedian = document.getElementById('comedian-filter').value;
+            if (selectedComedian === 'all') {
+                renderWordList(vocabulary);
+            } else {
+                renderWordList(vocabulary.filter(v => v.comedian === selectedComedian));
+            }
+        }
+
+        function renderWordList(words) {
+            const listContainer = document.getElementById('word-list');
+            listContainer.innerHTML = '';
+
+            words.forEach(item => {
+                const wordItem = document.createElement('div');
+                wordItem.className = 'word-item';
+                wordItem.onclick = () => loadWordIntoCard(item);
+                wordItem.innerHTML = `
+                    <div class="word-item-word">${item.word}</div>
+                    <div class="word-item-def">${item.definition}</div>
+                    <div class="word-item-comedian">${item.comedian}</div>
+                `;
+                listContainer.appendChild(wordItem);
+            });
+
+            const filtered = getFilteredVocabulary();
+            document.getElementById('stats').textContent = `Showing ${words.length} of ${filtered.length} selected words (${vocabulary.length} total)`;
+        }
+
+        function loadWordIntoCard(word) {
+            currentWord = word;
+            document.getElementById('word-text').textContent = word.word;
+            document.getElementById('word-source').textContent = `${word.comedian} • ${word.special}`;
+            document.getElementById('word-definition').textContent = word.definition;
+            
+            const highlightedContext = word.context.replace(/<b>([^<]+)<\/b>/gi, '<span class="word-highlight">$1</span>');
+            document.getElementById('quote-text').innerHTML = `"${highlightedContext}"`;
+            
+            const img = document.getElementById('comedian-image');
+            const imgContainer = document.getElementById('image-container');
+            img.src = word.image;
+            img.style.display = 'block';
+            img.onerror = function() { 
+                imgContainer.classList.add('hidden');
+            };
+            img.onload = function() {
+                imgContainer.classList.remove('hidden');
+            };
+
+            document.querySelectorAll('.nav-tab').forEach((tab, index) => tab.classList.toggle('active', index === 0));
+            document.getElementById('random-view').classList.remove('hidden');
+            document.getElementById('browse-view').classList.add('hidden');
+        }
+
+        document.addEventListener('DOMContentLoaded', loadVocabulary);
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                generateRandomWord();
+            }
+        });
+    </script>
+</body>
+</html>
