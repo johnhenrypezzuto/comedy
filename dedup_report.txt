@@ -1,0 +1,59 @@
+VOCABULARY DEDUPLICATION REPORT
+==================================================
+Date: 2026-03-17
+Task: Find and remove duplicate entries in vocabulary.json
+
+SUMMARY
+--------------------------------------------------
+Original entries: 637
+Cleaned entries: 630
+Total duplicates removed: 7
+
+DUPLICATE ANALYSIS
+--------------------------------------------------
+
+1. EXACT DUPLICATES (same word + comedian + special): 7 removed
+   These were true duplicates where the same entry appeared multiple times.
+   Kept the version with longer/better context and definition.
+
+2. POTENTIAL DUPLICATES (same word + comedian, different specials): 4 found
+   These are NOT duplicates - they represent the same word used by the same
+   comedian in different comedy specials, which is valid and should be kept.
+   
+   Found:
+   - 'comprehend' by Louis C.K.: 2 entries
+     * Specials: "Chewed Up (2008)", "At The Dolby (2023)"
+   
+   - 'commitment' by Robby Hoffman: 2 entries
+     * Specials: "I'm Nervous (2019)", "Wake Up (2025)"
+   
+   - 'exaggeration' by Robby Hoffman: 2 entries
+     * Specials: "I'm Nervous (2019)", "Wake Up (2025)"
+   
+   - 'existence' by Louis C.K.: 2 entries
+     * Specials: "At The Dolby (2023)", "Sincerely Louis CK (2020)"
+
+3. COMEDIAN NAME STANDARDIZATION: 0 changes needed
+   All comedian names were already properly capitalized.
+   
+   Verified 42 unique comedian names, all in proper format:
+   - Louis C.K. (not "louis c.k." or "Louis CK")
+   - John Mulaney (not "john mulaney")
+   - All other names properly capitalized
+
+4. CONTEXT SIMILARITY CHECK: 
+   Entries with same word but different specials were preserved as they
+   represent legitimate different uses of the same word by the same comedian.
+
+FINAL STATUS
+--------------------------------------------------
+✓ vocabulary.json cleaned and saved
+✓ No exact duplicates remaining
+✓ Comedian names properly standardized
+✓ Consistent formatting maintained
+✓ 630 unique entries across 42 comedians
+
+Files modified:
+- vocabulary.json (cleaned in place)
+- dedup_report.txt (this report)
+- clean_vocabulary.py (cleanup script)

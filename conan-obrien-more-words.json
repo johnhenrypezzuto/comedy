@@ -1,0 +1,209 @@
+{
+  "source": "Conan O'Brien - The Kennedy Center Mark Twain Prize for American Humor (2025)",
+  "transcript_path": "/mnt/data/openclaw/workspace/.openclaw/workspace/comedy-transcripts/Conan-OBrien-The-Kennedy-Center-Mark-Twain-Prize-for-American-Humor-2025-Transcript.md",
+  "image": "conan-obrien.jpg",
+  "description": "Sophisticated vocabulary showcasing Conan's Harvard Lampoon background - literary references, archaic constructions, philosophical terms, and clever wordplay",
+  "total_words": 22,
+  "words": [
+    {
+      "word": "vaunted",
+      "definition": "Highly praised or celebrated; acclaimed with great admiration",
+      "etymology": "Middle English vaunten, from Old French vanter, from Latin vanitas 'emptiness, vanity'",
+      "context": "This vaunted stage will now showcase distinguished, elegant, and revered entertainment",
+      "register": "Literary/archaic",
+      "speaker": "Announcer (opening)"
+    },
+    {
+      "word": "acolytes",
+      "definition": "Devoted followers or assistants; originally referring to those who assist in religious ceremonies",
+      "etymology": "Late Latin acolythus, from Greek akolouthos 'follower, companion'",
+      "context": "Meanwhile, all his radicalized acolytes were just left wandering around the country, jaded and paranoid",
+      "register": "Religious/literary",
+      "speaker": "John Mulaney"
+    },
+    {
+      "word": "juxtaposition",
+      "definition": "The fact of two things being seen or placed close together with contrasting effect",
+      "etymology": "Latin juxta 'next' + positio 'position'",
+      "context": "It was this juxtaposition of decorum and chaos that made Conan so special to me",
+      "register": "Academic/technical",
+      "speaker": "Nikki Glaser"
+    },
+    {
+      "word": "decorum",
+      "definition": "Behavior in keeping with good taste and propriety; etiquette",
+      "etymology": "Latin decorum 'that which is proper, suitable', from decus 'ornament, honor'",
+      "context": "It was this juxtaposition of decorum and chaos that made Conan so special",
+      "register": "Formal/literary",
+      "speaker": "Nikki Glaser"
+    },
+    {
+      "word": "despondently",
+      "definition": "In low spirits from loss of hope or courage; in a dejected manner",
+      "etymology": "Latin despondere 'to give up, promise', from de- 'away' + spondere 'to pledge'",
+      "context": "A good Catholic boy despondently staring into the fake night sky",
+      "register": "Literary",
+      "speaker": "Nikki Glaser"
+    },
+    {
+      "word": "disavowing",
+      "definition": "Denying any responsibility or support for something; repudiating",
+      "etymology": "Old French desavouer, from des- 'opposite of' + avouer 'acknowledge'",
+      "context": "Disavowing any responsibility for a bit he not only approved of, but rehearsed",
+      "register": "Formal/legal",
+      "speaker": "Nikki Glaser"
+    },
+    {
+      "word": "depraved",
+      "definition": "Morally corrupt; wicked; characterized by depravity",
+      "etymology": "Latin depravare 'to make crooked, corrupt', from de- 'thoroughly' + pravus 'crooked'",
+      "context": "You also gave us permission to laugh at some of the most depraved, immoral comedy",
+      "register": "Moral/religious",
+      "speaker": "Nikki Glaser"
+    },
+    {
+      "word": "kinship",
+      "definition": "A sharing of characteristics or origins; a feeling of being close or connected to other people",
+      "etymology": "Old English cynn 'family, race' + -ship",
+      "context": "I always felt a kinship for Conan, even before I met him, just as a fellow redhead",
+      "register": "Literary/anthropological",
+      "speaker": "Bill Burr"
+    },
+    {
+      "word": "meandering",
+      "definition": "Wandering aimlessly; following no particular course; rambling",
+      "etymology": "From the River Maeander in Asia Minor, known for its winding course",
+      "context": "Telling their long, meandering stories that went nowhere",
+      "register": "Literary",
+      "speaker": "Bill Burr"
+    },
+    {
+      "word": "luminaries",
+      "definition": "Persons who inspire or influence others, especially those prominent in a particular sphere",
+      "etymology": "Latin lumen 'light', from lucere 'to shine'",
+      "context": "Today, Conan joins such luminaries as Julia Louis-Dreyfus, Bob Newhart, Adam Sandler, and Steve Martin",
+      "register": "Literary/formal",
+      "speaker": "Kumail Nanjiani"
+    },
+    {
+      "word": "profoundly",
+      "definition": "Very great or intense; having deep insight or understanding; intellectually deep",
+      "etymology": "Latin profundus 'deep', from pro- 'before' + fundus 'bottom'",
+      "context": "It's a profoundly generous thing for a performer to let another performer sit next to them",
+      "register": "Philosophical/academic",
+      "speaker": "Andy Richter"
+    },
+    {
+      "word": "gratifying",
+      "definition": "Giving satisfaction or pleasure; affording emotional fulfillment",
+      "etymology": "Latin gratificare 'to show favor to', from gratus 'pleasing'",
+      "context": "It's gratifying to realize how far we've made it",
+      "register": "Formal",
+      "speaker": "Andy Richter"
+    },
+    {
+      "word": "reverence",
+      "definition": "Deep respect for someone or something; a feeling or attitude of deep respect tinged with awe",
+      "etymology": "Latin reverentia, from revereri 'to stand in awe of'",
+      "context": "We expect our graduates to have a reverence for well-respected citizens of the upper class",
+      "register": "Religious/formal",
+      "speaker": "Henfield Horgan (Harvard sketch)"
+    },
+    {
+      "word": "hyperbole",
+      "definition": "Exaggerated statements or claims not meant to be taken literally; overstatement for effect",
+      "etymology": "Greek hyperbole 'a throwing beyond, excess', from hyper- 'beyond' + ballein 'to throw'",
+      "context": "And, honestly, I mean this with no hyperbole, he attended Harvard University",
+      "register": "Rhetorical/academic",
+      "speaker": "Henfield Horgan (Harvard sketch)"
+    },
+    {
+      "word": "titans",
+      "definition": "People or things of very great importance, size, or power; from Greek mythology",
+      "etymology": "Greek Titanes, the divine giants who preceded the Olympian gods",
+      "context": "At Harvard, we aim to create titans of industry, finance, and government",
+      "register": "Mythological/literary",
+      "speaker": "Henfield Horgan (Harvard sketch)"
+    },
+    {
+      "word": "tangible",
+      "definition": "Perceptible by touch; clear and definite; real and substantial",
+      "etymology": "Latin tangere 'to touch'",
+      "context": "People who made a tremendous and tangible difference in the world",
+      "register": "Philosophical/formal",
+      "speaker": "Henfield Horgan (Harvard sketch)"
+    },
+    {
+      "word": "resolute",
+      "definition": "Admirably purposeful, determined, and unwavering; firm in purpose",
+      "etymology": "Latin resolutus 'loosened, dissolved', from resolvere 'to untie'",
+      "context": "Times change, but people have to stay resolute",
+      "register": "Formal/literary",
+      "speaker": "Mark Twain (Will Forte)"
+    },
+    {
+      "word": "translucent",
+      "definition": "Allowing light, but not detailed shapes, to pass through; semitransparent (used metaphorically for personality)",
+      "etymology": "Latin translucere 'to shine through', from trans- 'through' + lucere 'to shine'",
+      "context": "You're a translucent man-child who has bumbled and stumbled through 30 years",
+      "register": "Scientific/literary (metaphorical)",
+      "speaker": "Mark Twain (Will Forte)"
+    },
+    {
+      "word": "spasmodic",
+      "definition": "Occurring or done in brief, irregular bursts; fitful; characterized by spasms",
+      "etymology": "Greek spasmos 'spasm, convulsion', from span 'to draw, pull'",
+      "context": "30 years of meaningless spasmodic idiocy",
+      "register": "Medical/technical",
+      "speaker": "Mark Twain (Will Forte)"
+    },
+    {
+      "word": "ineptitude",
+      "definition": "Lack of skill, ability, or competence; awkwardness or inappropriateness",
+      "etymology": "Latin ineptus 'unsuitable, foolish', from in- 'not' + aptus 'fit'",
+      "context": "Our ineptitude, and the glorious mess of being human",
+      "register": "Formal/academic",
+      "speaker": "Conan O'Brien"
+    },
+    {
+      "word": "commonality",
+      "definition": "A shared feature or attribute; the state of sharing characteristics; solidarity",
+      "etymology": "Latin communis 'common, shared by all'",
+      "context": "We acknowledge our commonality, and we move just a little closer together",
+      "register": "Sociological/academic",
+      "speaker": "Conan O'Brien"
+    },
+    {
+      "word": "jingoism",
+      "definition": "Extreme patriotism, especially in the form of aggressive or warlike foreign policy",
+      "etymology": "From British music hall song 'We don't want to fight but by Jingo if we do'",
+      "context": "Twain was suspicious of populism, jingoism, imperialism, the money-obsessed mania of the Gilded Age",
+      "register": "Political/historical",
+      "speaker": "Conan O'Brien"
+    }
+  ],
+  "bonus_advanced_words": [
+    {
+      "word": "populism",
+      "definition": "A political approach that strives to appeal to ordinary people who feel that their concerns are disregarded by established elite groups",
+      "etymology": "Latin populus 'the people'",
+      "context": "Twain was suspicious of populism, jingoism, imperialism",
+      "speaker": "Conan O'Brien"
+    },
+    {
+      "word": "imperialism",
+      "definition": "A policy of extending a country's power and influence through diplomacy or military force",
+      "etymology": "Latin imperium 'command, empire'",
+      "context": "Twain was suspicious of populism, jingoism, imperialism",
+      "speaker": "Conan O'Brien"
+    },
+    {
+      "word": "bigotry",
+      "definition": "Intolerance toward those who hold different opinions from oneself; obstinate belief in the superiority of one's own opinions",
+      "etymology": "French bigot 'bigot, hypocrite', possibly from Old Spanish bigote 'mustache'",
+      "context": "Travel is fatal to prejudice, bigotry, and narrow-mindedness",
+      "speaker": "Conan O'Brien (quoting Twain)"
+    }
+  ],
+  "notes": "This collection emphasizes Conan's intellectual depth - his Harvard education shines through in philosophical terms (ineptitude, commonality), political vocabulary (jingoism, imperialism, populism), literary constructions (translucent, spasmodic), and classical references (titans, acolytes). The words span multiple speakers but particularly showcase Conan's own acceptance speech where he channels Mark Twain's intellectual legacy."
+}

@@ -1,0 +1,199 @@
+{
+  "comedian": "Ali Wong",
+  "totalWords": 16,
+  "criteria": "Graduate/PhD reading level words with Latin/Greek derivation, technical, archaic, or literary terms. Focus on psychological, medical, and social commentary vocabulary matching Wong's raw, confessional, sharp style.",
+  "specials": [
+    {
+      "title": "Baby Cobra",
+      "year": 2016,
+      "image": "comedy-transcripts/images/Ali-Wong-Baby-Cobra-2016.jpg",
+      "words": [
+        {
+          "word": "progesterone",
+          "type": "medical/hormonal",
+          "origin": "Latin",
+          "context": "Hormone pills as suppositories, Push Pop them up myself every single night",
+          "definition": "A steroid hormone involved in the menstrual cycle and maintaining pregnancy"
+        },
+        {
+          "word": "ovulation",
+          "type": "biological/medical",
+          "origin": "Latin",
+          "context": "You pee on these ovulation strips that tell you when the eggs are droppin'",
+          "definition": "The release of an egg from the ovary during the menstrual cycle"
+        },
+        {
+          "word": "miscarriage",
+          "type": "medical",
+          "origin": "English compound",
+          "context": "Last year, I had a miscarriage, which is very common",
+          "definition": "Spontaneous loss of pregnancy before the 20th week"
+        },
+        {
+          "word": "doula",
+          "type": "specialized/medical support",
+          "origin": "Greek",
+          "context": "That's why I'm going to hire a doula. You know what a doula is? That's a white hippie witch",
+          "definition": "A trained professional who provides continuous physical, emotional, and informational support during childbirth"
+        },
+        {
+          "word": "resentment",
+          "type": "psychological",
+          "origin": "Latin",
+          "context": "I am already so resentful towards my husband. So much resentment",
+          "definition": "Bitter indignation at having been treated unfairly; deep-seated anger"
+        },
+        {
+          "word": "metabolism",
+          "type": "biological/medical",
+          "origin": "Greek",
+          "context": "I'm jealous, first and foremost, of their metabolism",
+          "definition": "The chemical processes in a living organism necessary for the maintenance of life"
+        }
+      ]
+    },
+    {
+      "title": "Hard Knock Wife",
+      "year": 2018,
+      "image": "comedy-transcripts/images/Ali-Wong-Hard-Knock-Wife-2018.jpg",
+      "words": [
+        {
+          "word": "lactation",
+          "type": "medical/biological",
+          "origin": "Latin",
+          "context": "You have to call a lactation consultant. A lactation consultant is a white NPR listener with dreadlocks, Named Indigo",
+          "definition": "The secretion of milk by the mammary glands and the period of breastfeeding"
+        },
+        {
+          "word": "catheter",
+          "type": "medical",
+          "origin": "Greek",
+          "context": "Catheter, I had never had a catheter in my life. A catheter is a tube that they hook up to your pee-pee hole",
+          "definition": "A thin tube inserted into the body to administer or drain fluids"
+        },
+        {
+          "word": "anesthesia",
+          "type": "medical",
+          "origin": "Greek",
+          "context": "They put the anesthesia in your back, and then they put up this curtain",
+          "definition": "Medication used to induce loss of sensation or consciousness during medical procedures"
+        },
+        {
+          "word": "menopause",
+          "type": "medical/biological",
+          "origin": "Greek",
+          "context": "You think I wanna fuck an 18-year-old boy when I'm on the precipice of menopause?",
+          "definition": "The time marking the end of menstrual cycles, diagnosed after 12 months without a period"
+        },
+        {
+          "word": "precipice",
+          "type": "literary",
+          "origin": "Latin",
+          "context": "When I'm on the precipice of menopause",
+          "definition": "A very steep rock face; a hazardous situation or one that could lead to disaster"
+        },
+        {
+          "word": "bespoke",
+          "type": "archaic/formal",
+          "origin": "Old English",
+          "context": "He is bespoke to me. Irreplaceable!",
+          "definition": "Custom-made; specifically created for a particular person or purpose"
+        },
+        {
+          "word": "ruminating",
+          "type": "psychological",
+          "origin": "Latin",
+          "context": "Lately, I have been ruminating a lot over this one time I hooked up with this dude",
+          "definition": "Deep or considered thought; in psychology, repetitive focus on distressing thoughts"
+        }
+      ]
+    },
+    {
+      "title": "Don Wong",
+      "year": 2022,
+      "image": "comedy-transcripts/images/Ali-Wong-Don-Wong-2022.jpg",
+      "imageNote": "TODO: Add image file",
+      "words": [
+        {
+          "word": "metamorphosizes",
+          "type": "biological/literary",
+          "origin": "Greek",
+          "context": "Especially when that fear metamorphosizes into pleasure",
+          "definition": "Undergoes a complete change of form, structure, or substance; transformation"
+        },
+        {
+          "word": "disproportionate",
+          "type": "academic/statistical",
+          "origin": "Latin",
+          "context": "I know exactly why there's a disproportionate amount of men that do stand-up",
+          "definition": "Too large or too small in comparison with something else; lacking proper balance"
+        },
+        {
+          "word": "psychopath",
+          "type": "clinical/psychological",
+          "origin": "Greek",
+          "context": "Any man watching me, listening to what I have to say, and thinking to themselves, 'I want to fuck her…' is a raging psychopath",
+          "definition": "A person with a chronic mental disorder with abnormal or violent social behavior"
+        },
+        {
+          "word": "colonoscopy",
+          "type": "medical procedure",
+          "origin": "Greek",
+          "context": "I had a colonoscopy a couple years ago. That is some 50-year-old man shit right there",
+          "definition": "An examination of the colon using a flexible tube with a camera"
+        },
+        {
+          "word": "monogamy",
+          "type": "sociological",
+          "origin": "Greek",
+          "context": "Now I'm in monogamy jail, and I don't know how to get out",
+          "definition": "The practice of being married to or having a sexual relationship with only one person at a time"
+        },
+        {
+          "word": "viscous",
+          "type": "scientific/technical",
+          "origin": "Latin",
+          "context": "It was sparkly and glistening. Viscous but not too pasty",
+          "definition": "Having a thick, sticky consistency between solid and liquid; having high viscosity"
+        }
+      ]
+    },
+    {
+      "title": "Single Lady",
+      "year": 2024,
+      "image": "comedy-transcripts/images/Ali-Wong-Single-Lady-2024.jpg",
+      "imageNote": "TODO: Add image file",
+      "words": [
+        {
+          "word": "acrimony",
+          "type": "formal/literary",
+          "origin": "Latin",
+          "context": "Divorce gets a really bad reputation and it can sound really scary and full of acrimony",
+          "definition": "Bitterness or ill feeling, especially in speech or behavior; harshness"
+        },
+        {
+          "word": "impetus",
+          "type": "formal/literary",
+          "origin": "Latin",
+          "context": "So that was sort of the impetus for me to get back up on stage and do stand-up again",
+          "definition": "The force or energy with which a body moves; a driving force or stimulus"
+        },
+        {
+          "word": "geriatric",
+          "type": "medical",
+          "origin": "Greek",
+          "context": "Who's gonna want this geriatric uterus, these breastfed National Geographic titties?",
+          "definition": "Relating to old age or the medical care of elderly people"
+        },
+        {
+          "word": "scarcity mindset",
+          "type": "psychological/economic",
+          "origin": "English/Latin",
+          "context": "I still suffer from scarcity mindset. I am still so devastatingly cheap",
+          "definition": "A cognitive pattern where one believes resources are limited, leading to hoarding or fear-based financial decisions"
+        }
+      ]
+    }
+  ],
+  "notes": "Ali Wong's vocabulary reflects her unique comedic voice: medically explicit (lactation, catheter, colonoscopy), psychologically astute (resentment, ruminating, psychopath), and socially incisive (monogamy, disproportionate, scarcity mindset). Her word choices blend clinical precision with raw confessional honesty, often using technical terms to demystify taboo subjects like childbirth, sexuality, and divorce."
+}

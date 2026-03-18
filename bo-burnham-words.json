@@ -1,0 +1,197 @@
+{
+  "comedian": "Bo Burnham",
+  "specials": [
+    {
+      "name": "Inside",
+      "year": 2021,
+      "image": "images/bo-burnham-inside.jpg"
+    },
+    {
+      "name": "Words Words Words",
+      "year": 2010,
+      "image": "images/bo-burnham-words-words-words.webp"
+    }
+  ],
+  "words": [
+    {
+      "word": "pedagogically",
+      "definition": "Relating to the method and practice of teaching; pertaining to educational theory and instruction.",
+      "context": "The simple narrative taught in every history class is demonstrably false and <b>pedagogically</b> classist.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Education/Academic",
+      "difficulty": "high"
+    },
+    {
+      "word": "solipsistic",
+      "definition": "Relating to solipsism; the philosophical idea that only one's own mind is sure to exist, or the tendency to view everything in relation to oneself.",
+      "context": "Why do you rich fucking white people insist on seeing every socio-political conflict through the <b>myopic</b> lens of your own self-actualization?",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Philosophy",
+      "difficulty": "high"
+    },
+    {
+      "word": "myopic",
+      "definition": "Near-sighted; lacking foresight or intellectual insight; narrowly focused.",
+      "context": "Why do you rich fucking white people insist on seeing every socio-political conflict through the <b>myopic</b> lens of your own self-actualization?",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Medical/Philosophical",
+      "difficulty": "high"
+    },
+    {
+      "word": "derealization",
+      "definition": "A psychological state in which the external world feels unreal, dreamlike, or distorted; often associated with dissociative disorders.",
+      "context": "Total disassociation, fully out your mind, Googling '<b>derealization</b>,' hating what you find.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Psychology/Clinical",
+      "difficulty": "high"
+    },
+    {
+      "word": "dissociation",
+      "definition": "A mental process of disconnecting from one's thoughts, feelings, memories, or sense of identity; a defense mechanism.",
+      "context": "Total <b>disassociation</b>, fully out your mind.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Psychology/Clinical",
+      "difficulty": "high"
+    },
+    {
+      "word": "agoraphobic",
+      "definition": "Relating to agoraphobia; fear or anxiety about places or situations that might cause panic, helplessness, or embarrassment.",
+      "context": "<b>Full agoraphobic</b>, losing focus, cover blown.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Psychology/Clinical",
+      "difficulty": "high"
+    },
+    {
+      "word": "anthropomorphize",
+      "definition": "To attribute human characteristics, emotions, or intentions to non-human entities, animals, or objects.",
+      "context": "Why is Pluto just a fucking dog? Why–did they just forget to <b>anthropomorphize</b> him?",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Philosophy/Literary",
+      "difficulty": "high"
+    },
+    {
+      "word": "soliloquy",
+      "definition": "An act of speaking one's thoughts aloud when by oneself or regardless of any hearers, especially in a dramatic context.",
+      "context": "He could stack metaphor five, six at a time and rhyme into the very last line of a <b>soliloquy</b>.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Literary/Theatrical",
+      "difficulty": "high"
+    },
+    {
+      "word": "consummation",
+      "definition": "The point at which something is complete or finalized; archaic/literary usage referring to completion or fulfillment.",
+      "context": "'Tis a <b>consummation</b> devoutly to be wish'd. To die, to sleep.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Literary/Archaic",
+      "difficulty": "high"
+    },
+    {
+      "word": "substantiation",
+      "definition": "The provision of evidence or proof to support a claim; in theology, the conversion of bread and wine into the body and blood of Christ.",
+      "context": "Transgendered <b>substantiation</b>.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Theological/Philosophical",
+      "difficulty": "high"
+    },
+    {
+      "word": "blasphemer",
+      "definition": "One who speaks irreverently about God or sacred things; one who shows contempt or lack of reverence for religious beliefs.",
+      "context": "I'm a <b>heretic</b>, and I'm on fire. I'm a <b>blasphemer</b> post-Katrina.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Religious/Literary",
+      "difficulty": "high"
+    },
+    {
+      "word": "entropy",
+      "definition": "A measure of disorder or randomness in a system; in thermodynamics, the degree to which energy is unavailable for work.",
+      "context": "I've got an eating disorder. Yeah, more like nutritional <b>entropy</b>.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Physics/Scientific",
+      "difficulty": "high"
+    },
+    {
+      "word": "quantum",
+      "definition": "Relating to quantum mechanics; the smallest discrete unit of any physical property; involving probabilistic rather than deterministic behavior.",
+      "context": "My penis is so small I often have trouble finding it because it's so gratefully influenced by <b>quantum</b> mechanical fluctuations in the fabric of space-time.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Physics/Scientific",
+      "difficulty": "high"
+    },
+    {
+      "word": "insatiable",
+      "definition": "Impossible to satisfy or quench; always wanting more; from Latin 'in-' (not) + 'satiare' (to satisfy).",
+      "context": "Mommy let you use her iPad, you were barely two, and it did all the things we designed it to do. Now look at you, <b>insatiable</b> you.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Literary/Latin-derived",
+      "difficulty": "high"
+    },
+    {
+      "word": "neoliberal",
+      "definition": "Relating to a political and economic philosophy emphasizing free-market capitalism, deregulation, and reduction in government spending.",
+      "context": "And <b>neoliberal</b> fascists are destroying the left.",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Political/Economic",
+      "difficulty": "high"
+    },
+    {
+      "word": "voyeur",
+      "definition": "One who derives sexual gratification from observing others; more broadly, someone who enjoys observing the private lives of others.",
+      "context": "I need you like a <b>voyeur</b> needs a branch, like boys tossing salad needs a little bit of Neverland Ranch.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Psychological/French-derived",
+      "difficulty": "high"
+    },
+    {
+      "word": "hominid",
+      "definition": "A primate of the family Hominidae, which includes humans and their extinct ancestors and relatives.",
+      "context": "You're making me devolve to a <b>homo erectus</b>. Yeah, <b>hominid</b> tree.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Scientific/Anthropological",
+      "difficulty": "high"
+    },
+    {
+      "word": "aristocratic",
+      "definition": "Relating to the aristocracy; a class of people holding exceptional rank and privileges, especially the hereditary nobility.",
+      "context": "If we met in 1780, I was a white southern <b>aristocratic</b> plantation owner.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Historical/Sociological",
+      "difficulty": "high"
+    },
+    {
+      "word": "socio-political",
+      "definition": "Relating to the combination and interaction of social and political factors; involving both societal and governmental dimensions.",
+      "context": "Have you not been fucking listening? We are entrenched in– [socio-political conflict].",
+      "comedian": "Bo Burnham",
+      "special": "Inside",
+      "category": "Political/Sociological",
+      "difficulty": "high"
+    },
+    {
+      "word": "heretic",
+      "definition": "One who holds beliefs contrary to established religious doctrine; a dissenter from orthodox teachings.",
+      "context": "I'm a <b>heretic</b>, and I'm on fire.",
+      "comedian": "Bo Burnham",
+      "special": "Words Words Words",
+      "category": "Religious/Historical",
+      "difficulty": "high"
+    }
+  ]
+}

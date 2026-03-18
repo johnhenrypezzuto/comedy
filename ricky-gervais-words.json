@@ -1,0 +1,191 @@
+{
+  "title": "Ricky Gervais Sophisticated Vocabulary",
+  "description": "Graduate/PhD level, Latin/Greek derived, archaic, literary, and British formal/philosophical words from Ricky Gervais stand-up specials",
+  "total_words": 18,
+  "sources": [
+    {
+      "special": "SuperNature",
+      "year": 2022,
+      "image": "images/ricky-gervais-supernature.jpg"
+    },
+    {
+      "special": "Humanity",
+      "year": 2018,
+      "image": "images/Ricky-Gervais-Humanity-2018-Transcript_image.jpg"
+    },
+    {
+      "special": "Armageddon",
+      "year": 2023,
+      "image": "images/ricky-gervais-armageddon.jpg"
+    },
+    {
+      "special": "Mortality",
+      "year": 2025,
+      "image": "images/ricky-gervais-mortality.webp"
+    }
+  ],
+  "words": [
+    {
+      "word": "gravitas",
+      "pronunciation": "/ˈɡrævɪtæs/",
+      "definition": "Dignity, seriousness, or solemnity of manner; weightiness of importance",
+      "etymology": "Latin: from gravis 'heavy'",
+      "example": "The title promises gravitas, the confrontation with that final curtain.",
+      "source": "Mortality (2025)",
+      "category": "Latin-derived, formal"
+    },
+    {
+      "word": "rigmarole",
+      "pronunciation": "/ˈrɪɡməroʊl/",
+      "definition": "A lengthy and complicated procedure; elaborate or trivial discourse",
+      "etymology": "Possibly from 'rigmariggle' or 'ragman roll'",
+      "example": "You've gotta go through the whole polite rigmarole, and go, 'She's beautiful.'",
+      "source": "Humanity (2018)",
+      "category": "British formal, archaic"
+    },
+    {
+      "word": "censorious",
+      "pronunciation": "/sɛnˈsɔːriəs/",
+      "definition": "Severely critical of others; inclined to find fault",
+      "etymology": "Latin: from censura 'judgement'",
+      "example": "The enemies are vague—'elitists,' censorious mobs, people who want to 'ban it'.",
+      "source": "Mortality (2025)",
+      "category": "Latin-derived, literary"
+    },
+    {
+      "word": "omnipresent",
+      "pronunciation": "/ˌɒmnɪˈprɛzənt/",
+      "definition": "Present, appearing, or found everywhere simultaneously",
+      "etymology": "Latin: omni- 'all' + praesens 'present'",
+      "example": "I'm omnipresent, so I'm watching 50 million people bumming right now.",
+      "source": "SuperNature (2022)",
+      "category": "Latin-derived, theological/philosophical"
+    },
+    {
+      "word": "monotreme",
+      "pronunciation": "/ˈmɒnətriːm/",
+      "definition": "An egg-laying mammal of the order Monotremata (e.g., platypus)",
+      "etymology": "Greek: monos 'single' + trema 'hole' (referring to cloaca)",
+      "example": "The duck-billed platypus, a monotreme. When scientists first found that, they thought it was a hoax.",
+      "source": "SuperNature (2022)",
+      "category": "Greek-derived, technical/scientific"
+    },
+    {
+      "word": "gestation",
+      "pronunciation": "/dʒɛˈsteɪʃən/",
+      "definition": "The process of carrying or being carried in the womb between conception and birth",
+      "etymology": "Latin: from gestare 'to carry'",
+      "example": "A human is born before the end of its natural gestation period.",
+      "source": "Humanity (2018)",
+      "category": "Latin-derived, technical/biological"
+    },
+    {
+      "word": "zeitgeist",
+      "pronunciation": "/ˈzaɪtɡaɪst/",
+      "definition": "The defining spirit or mood of a particular period of history",
+      "etymology": "German: Zeit 'time' + Geist 'spirit'",
+      "example": "It really hit the zeitgeist. It was always the same deal.",
+      "source": "Mortality (2025)",
+      "category": "German philosophical term"
+    },
+    {
+      "word": "puritanical",
+      "pronunciation": "/ˌpjʊərɪˈtænɪkəl/",
+      "definition": "Strictly moralistic; characterized by rigid religious or moral beliefs",
+      "etymology": "From Puritan + -ical",
+      "example": "If woke now means being a puritanical, authoritarian bully, who gets people fired for an honest opinion, then no, I'm not woke.",
+      "source": "Armageddon (2023)",
+      "category": "British formal, historical/religious"
+    },
+    {
+      "word": "authoritarian",
+      "pronunciation": "/ɔːˌθɒrɪˈteəriən/",
+      "definition": "Favouring or enforcing strict obedience to authority at the expense of personal freedom",
+      "etymology": "Latin: auctoritas 'authority' + -arian",
+      "example": "Traditionally, the word 'fascist' meant a member of a far-right authoritarian regime.",
+      "source": "Armageddon (2023)",
+      "category": "Latin-derived, political/philosophical"
+    },
+    {
+      "word": "existential",
+      "pronunciation": "/ˌɛɡzɪˈstɛnʃəl/",
+      "definition": "Relating to existence; concerned with the nature of human existence",
+      "etymology": "Latin: existentia 'existence'",
+      "example": "Artificial intelligence, the latest existential threat to humanity.",
+      "source": "Armageddon (2023)",
+      "category": "Latin-derived, philosophical"
+    },
+    {
+      "word": "paradigms",
+      "pronunciation": "/ˈpærədaɪmz/",
+      "definition": "Typical examples, patterns, or conceptual frameworks",
+      "etymology": "Greek: paradeigma 'pattern, example'",
+      "example": "There's other paradigms. Nature is brutal.",
+      "source": "Armageddon (2023)",
+      "category": "Greek-derived, academic/philosophical"
+    },
+    {
+      "word": "hypochondriac",
+      "pronunciation": "/ˌhaɪpəkənˈdriæk/",
+      "definition": "A person excessively worried about having a serious illness",
+      "etymology": "Greek: hypo- 'under' + chondros 'cartilage' (originally: upper abdomen)",
+      "example": "I'm a hypochondriac, right? Every morning, I wake up and I think, 'What's wrong?'",
+      "source": "Mortality (2025)",
+      "category": "Greek-derived, medical/psychological"
+    },
+    {
+      "word": "catastrophize",
+      "pronunciation": "/kəˈtæstrəfaɪz/",
+      "definition": "To imagine or predict the worst possible outcome; to exaggerate negatively",
+      "etymology": "Greek: kata- 'down' + strophe 'turning'",
+      "example": "And I catastrophize as well. So I google it, and the first five or six I'm fine with.",
+      "source": "Mortality (2025)",
+      "category": "Greek-derived, psychological"
+    },
+    {
+      "word": "euphemisms",
+      "pronunciation": "/ˈjuːfəmɪzəmz/",
+      "definition": "Mild or indirect words substituted for ones considered too harsh or blunt",
+      "etymology": "Greek: eu- 'good' + pheme 'speech'",
+      "example": "Why do people use euphemisms like that? They go like that.",
+      "source": "Science (2010)",
+      "category": "Greek-derived, linguistic"
+    },
+    {
+      "word": "abomination",
+      "pronunciation": "/əˌbɒmɪˈneɪʃən/",
+      "definition": "A thing that causes disgust or hatred; a vile or shameful act",
+      "etymology": "Latin: abominari 'to deprecate as an ill omen'",
+      "example": "They are both an abomination and shall surely be put to death.",
+      "source": "SuperNature (2022)",
+      "category": "Latin-derived, biblical/literary"
+    },
+    {
+      "word": "malingerer",
+      "pronunciation": "/məˈlɪŋɡərər/",
+      "definition": "A person who pretends to be ill to escape duty or work",
+      "etymology": "French: malingre 'sickly'",
+      "example": "Everyone else is a fucking malingerer. Never cancel.",
+      "source": "Science (2010)",
+      "category": "French-derived, formal"
+    },
+    {
+      "word": "indisputable",
+      "pronunciation": "/ˌɪndɪˈspjuːtəbəl/",
+      "definition": "Unable to be challenged or denied; unquestionable",
+      "etymology": "Latin: in- 'not' + disputare 'to discuss'",
+      "example": "That's indisputable, okay? I don't judge them in any other aspect of their life.",
+      "source": "Science (2010)",
+      "category": "Latin-derived, formal/academic"
+    },
+    {
+      "word": "virtue signaling",
+      "pronunciation": "/ˈvɜːrtjuː ˈsɪɡnəlɪŋ/",
+      "definition": "The expression of moral views to enhance one's social standing rather than from genuine conviction",
+      "etymology": "Latin: virtus 'virtue' + Old French: signaler 'to signal'",
+      "example": "And they would raise their status by bringing other people down. That's where the term 'virtue signaling' comes from.",
+      "source": "Mortality (2025)",
+      "category": "Latin-derived, contemporary sociological"
+    }
+  ]
+}

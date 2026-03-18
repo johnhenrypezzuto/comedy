@@ -1,0 +1,136 @@
+{
+  "comedian": "Tom Papa",
+  "style": "Observational comedy with thoughtful social commentary on family, modern life, and human nature",
+  "sourceSpecials": [
+    {
+      "title": "Home Free",
+      "year": 2024,
+      "image": "images/tom-papa-home-free-2024-transcript.webp"
+    },
+    {
+      "title": "What A Day",
+      "year": 2022,
+      "image": "images/tom-papa-what-a-day-2022-transcript.webp"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "perspective",
+      "definition": "A particular attitude toward or way of regarding something; a point of view",
+      "etymology": "Latin: perspicere (to see through, examine)",
+      "context": "Papa uses this when discussing life challenges, aging, and maintaining proper outlook on problems",
+      "example": "Sometimes you just need perspective, to know that you're doing all right."
+    },
+    {
+      "word": "compartmentalize",
+      "definition": "To divide into sections or categories; to separate into isolated mental compartments",
+      "etymology": "Latin: compartiri (to divide) + -alize",
+      "context": "Used when discussing marriage and separating feelings about a partner's quirks",
+      "example": "Now I've got to compartmentalize that I'm not married to old 'Rat Fingers' Johnson."
+    },
+    {
+      "word": "epitome",
+      "definition": "A person or thing that is a perfect example of a particular quality or type",
+      "etymology": "Greek: epitome (abridgment, summary)",
+      "context": "Describing the quintessence of male vanity and behavior",
+      "example": "The epitome of male vanity is in the summer."
+    },
+    {
+      "word": "vulnerable",
+      "definition": "Susceptible to physical or emotional harm; exposed to the possibility of being hurt",
+      "etymology": "Latin: vulnerabilis (woundable)",
+      "context": "Discussing the fear that comes with loving someone, especially children",
+      "example": "I never loved something so much and felt so vulnerable at the same time."
+    },
+    {
+      "word": "illusion",
+      "definition": "A false idea or belief; something that deceives by producing a false impression",
+      "etymology": "Latin: illusio (mocking, deception)",
+      "context": "Referencing social media, status, and false perceptions of reality",
+      "example": "That's an illusion. A simple life is what wins."
+    },
+    {
+      "word": "arrogance",
+      "definition": "An exaggerated sense of one's own importance or abilities; overbearing pride",
+      "etymology": "Latin: arrogantia (claiming for oneself)",
+      "context": "Discussing unrealistic expectations in relationships and life",
+      "example": "That was arrogance. Take two perfect people, put them in one relationship?"
+    },
+    {
+      "word": "flippantly",
+      "definition": "In a way that treats serious issues with inappropriate humor or lack of respect",
+      "etymology": "Latin: flippare (to flick, flip)",
+      "context": "Describing how people casually approach the decision to have children",
+      "example": "If you don't have children, people approach you all the time very flippantly."
+    },
+    {
+      "word": "heritage",
+      "definition": "Valued objects, traditions, or qualities passed down from previous generations",
+      "etymology": "Old French: heritage (inheritance)",
+      "context": "Discussing DNA tests and family background discoveries",
+      "example": "Not only do you find out your family heritage, but you also find out all your family secrets."
+    },
+    {
+      "word": "construct",
+      "definition": "An idea or theory containing various conceptual elements; something constructed by the mind",
+      "etymology": "Latin: construere (to pile up, build)",
+      "context": "Discussing social media's false portrayal of happiness",
+      "example": "That's a social media construct. We're not supposed to be happy all the time."
+    },
+    {
+      "word": "disparity",
+      "definition": "A great difference or inequality between things",
+      "etymology": "Latin: disparitas (inequality)",
+      "context": "Discussing economic inequality and social divisions",
+      "example": "There's a great economic disparity between the really rich and the really poor."
+    },
+    {
+      "word": "immaculate",
+      "definition": "Perfectly clean, neat, or tidy; free from flaws or mistakes",
+      "etymology": "Latin: immaculatus (unstained, pure)",
+      "context": "Describing someone who appears perfectly put-together",
+      "example": "So well thought out, everything immaculate: suit, tie, leather shoes match his briefcase."
+    },
+    {
+      "word": "genetic",
+      "definition": "Relating to genes or heredity; determined by factors present at birth",
+      "etymology": "Greek: genetikos (origin, birth)",
+      "context": "Discussing natural traits, sleep patterns, and inherited characteristics",
+      "example": "They're freaks, genetic freaks. Steve Jobs, Edison—freaks."
+    },
+    {
+      "word": "intimacy",
+      "definition": "Close familiarity or friendship; a personal, private connection",
+      "etymology": "Latin: intimitas (innermost, close)",
+      "context": "Discussing relationships with pets and the closeness they provide",
+      "example": "I love that level of intimacy. I wish my kids were more like cats."
+    },
+    {
+      "word": "entitled",
+      "definition": "Believing oneself to be inherently deserving of privileges or special treatment",
+      "etymology": "Old French: entiter (to give a title)",
+      "context": "Discussing modern children's expectations and attitudes",
+      "example": "Oh, they're so entitled. They walk into that shop with the little sample spoons."
+    },
+    {
+      "word": "sincerity",
+      "definition": "The quality of being free from pretense, deceit, or hypocrisy; genuine honesty",
+      "etymology": "Latin: sinceritas (clean, pure)",
+      "context": "Making genuine statements about life advice and love",
+      "example": "Honestly and with all sincerity, you have to find someone to love."
+    },
+    {
+      "word": "patriarchal",
+      "definition": "Relating to a system of society controlled by men; male-dominated",
+      "etymology": "Greek: patriarches (father, chief)",
+      "context": "Discussing institutional structures and women's perspectives on them",
+      "example": "The church is a patriarchal system to keep women down."
+    }
+  ],
+  "metadata": {
+    "totalWords": 16,
+    "readingLevel": "Graduate/PhD",
+    "extractedDate": "2026-03-18",
+    "notes": "Tom Papa's vocabulary reflects his observational style—accessible but thoughtful. These words appear in his philosophical and social commentary moments about family dynamics, modern anxieties, relationships, and human nature."
+  }
+}

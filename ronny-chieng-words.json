@@ -1,0 +1,187 @@
+{
+  "comedian": "Ronny Chieng",
+  "background": "Lawyer-turned-comedian, Malaysian-Chinese, first-generation immigrant to America",
+  "specials": [
+    {
+      "title": "Asian Comedian Destroys America",
+      "year": 2019,
+      "image": "images/placeholder-2019.webp"
+    },
+    {
+      "title": "Love to Hate It",
+      "year": 2024,
+      "image": "images/ronny-chieng-love-to-hate-it-2024.webp"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "blastocyst",
+      "pronunciation": "/ˈblæstəsɪst/",
+      "origin": "Greek: blastos (germ) + kystis (cyst)",
+      "definition": "An early-stage embryo consisting of a sphere of cells with a fluid-filled cavity",
+      "context": "Medical/reproductive technology terminology used when discussing fertility treatments",
+      "example": "The doctor grades the blastocysts like cocaine—A-grade, B-grade, C-grade embryos."
+    },
+    {
+      "word": "exponential",
+      "pronunciation": "/ˌɛkspəˈnɛnʃəl/",
+      "origin": "Latin: exponere (to set forth)",
+      "definition": "Increasing at an accelerating rate; characterized by exponential growth",
+      "context": "Mathematical term used to describe wealth gap disparities and decreasing probabilities",
+      "example": "Wealth gap disparities increasing exponentially."
+    },
+    {
+      "word": "pavlovian",
+      "pronunciation": "/pævˈloʊviən/",
+      "origin": "From Ivan Pavlov, Russian physiologist",
+      "definition": "Relating to conditioned response; automatic learned behavior",
+      "context": "Psychological term describing automatic responses to stimuli",
+      "example": "It's like a Pavlovian response at this point."
+    },
+    {
+      "word": "garnishing",
+      "pronunciation": "/ˈɡɑrnɪʃɪŋ/",
+      "origin": "Old French: garnir (to furnish, equip)",
+      "definition": "Legal process of withholding wages to pay a debt",
+      "context": "Legal/financial term used when discussing consequences of storming the Capitol",
+      "example": "The US Marshals are garnishing your wages."
+    },
+    {
+      "word": "arbitrage",
+      "pronunciation": "/ˈɑrbɪtrɑʒ/",
+      "origin": "French: arbitrer (to arbitrate)",
+      "definition": "Exploiting price differences between markets for profit",
+      "context": "Economic term describing value differences across geographic locations",
+      "example": "The arbitrage value is out of control. Same product in different locations."
+    },
+    {
+      "word": "macroeconomics",
+      "pronunciation": "/ˌmækroʊˌɛkəˈnɑmɪks/",
+      "origin": "Greek: makros (large) + oikonomia (household management)",
+      "definition": "Branch of economics dealing with economy-wide phenomena",
+      "context": "Economic terminology reflecting Chieng's father's background (master's in economics)",
+      "example": "No understanding of basic principles of macroeconomics."
+    },
+    {
+      "word": "asymmetry",
+      "pronunciation": "/ˌeɪsɪˈmɛtri/",
+      "origin": "Greek: a- (without) + symmetria (symmetry)",
+      "definition": "Lack of equality or equivalence between parts; imbalance",
+      "context": "Technical term describing information gaps between generations",
+      "example": "The information asymmetry right now is just out of control."
+    },
+    {
+      "word": "indignant",
+      "pronunciation": "/ɪnˈdɪɡnənt/",
+      "origin": "Latin: indignari (to deem unworthy)",
+      "definition": "Feeling anger at perceived unfair treatment",
+      "context": "Describing emotional response when challenged on misinformation",
+      "example": "They always get so indignant about it. 'How do you know that it's not real?'"
+    },
+    {
+      "word": "convoluted",
+      "pronunciation": "/ˈkɑnvəˌlutɪd/",
+      "origin": "Latin: convolvere (to roll together)",
+      "definition": "Extremely complex and difficult to follow; tangled",
+      "context": "Describing confusing political messaging",
+      "example": "Their messaging is so convoluted. I can't get to what their core issue actually is."
+    },
+    {
+      "word": "entrenched",
+      "pronunciation": "/ɪnˈtrɛnʧt/",
+      "origin": "French: en- (in) + tranchée (trench)",
+      "definition": "Firmly established and difficult to change",
+      "context": "Political/economic term describing power structures",
+      "example": "Baby boomers entrenched in decision-making positions lowered the capital gains tax."
+    },
+    {
+      "word": "introspective",
+      "pronunciation": "/ˌɪntrəˈspɛktɪv/",
+      "origin": "Latin: intro- (inward) + specere (to look)",
+      "definition": "Examining one's own thoughts and feelings",
+      "context": "Psychological term describing male self-reflection",
+      "example": "You hit this age where suddenly you become very introspective."
+    },
+    {
+      "word": "pharmaceuticals",
+      "pronunciation": "/ˌfɑrməˈsutɪkəlz/",
+      "origin": "Greek: pharmakon (drug)",
+      "definition": "Medicinal drugs; pharmaceutical products",
+      "context": "Medical terminology when discussing fertility injection chemicals",
+      "example": "Powerful pharmaceuticals that you dissolve in distilled water completely."
+    },
+    {
+      "word": "depositions",
+      "pronunciation": "/ˌdɛpəˈzɪʃənz/",
+      "origin": "Latin: deponere (to put down)",
+      "definition": "Witness testimony taken under oath outside court; legal discovery process",
+      "context": "Legal term reflecting Chieng's lawyer background",
+      "example": "I don't have time in my schedule to attend depositions."
+    },
+    {
+      "word": "quadratic",
+      "pronunciation": "/kwɑˈdrætɪk/",
+      "origin": "Latin: quadratus (square)",
+      "definition": "Relating to mathematical equations involving squared variables",
+      "context": "Mathematical term used when discussing homework and education",
+      "example": "These quadratic equations making me suicidal."
+    },
+    {
+      "word": "cryptocurrency",
+      "pronunciation": "/ˈkrɪptoʊˌkʌrənsi/",
+      "origin": "Greek: kryptos (hidden) + Latin: currere (to run)",
+      "definition": "Digital currency using cryptography for security",
+      "context": "Technical/financial term describing generational technology gaps",
+      "example": "Their phone AI is trading cryptocurrency."
+    },
+    {
+      "word": "antibodies",
+      "pronunciation": "/ˈæntiˌbɑdiz/",
+      "origin": "Greek: anti- (against) + Latin: corpus (body)",
+      "definition": "Proteins that identify and neutralize foreign objects; figuratively, defenses",
+      "context": "Biological term used metaphorically for internet scam immunity",
+      "example": "These baby boomers don't have the antibodies to deal with the internet."
+    },
+    {
+      "word": "hierarchy",
+      "pronunciation": "/ˈhaɪərˌɑrki/",
+      "origin": "Greek: hieros (sacred) + arkhē (rule)",
+      "definition": "System of ranking by status or authority",
+      "context": "Describing social/cultural ranking structures",
+      "example": "From most fun to least fun, Chinese baby boomers, least fun of all the Asians right now."
+    },
+    {
+      "word": "aesthetic",
+      "pronunciation": "/ɛsˈθɛtɪk/",
+      "origin": "Greek: aisthētikos (perceptive)",
+      "definition": "Concerned with beauty and artistic taste",
+      "context": "Describing visual presentation and social media appearance",
+      "example": "It messes up the aesthetics of my Instagram too much."
+    },
+    {
+      "word": "correlation",
+      "pronunciation": "/ˌkɔrəˈleɪʃən/",
+      "origin": "Latin: com- (together) + relatio (relation)",
+      "definition": "Mutual relationship between two or more things",
+      "context": "Statistical term suggesting causal relationships",
+      "example": "Think about the correlation between those two phenomena."
+    },
+    {
+      "word": "phenomena",
+      "pronunciation": "/fəˈnɑmɪnə/",
+      "origin": "Greek: phainomenon (thing appearing)",
+      "definition": "Observable facts or events",
+      "context": "Scientific/academic term for observable occurrences",
+      "example": "Think about the correlation between those two phenomena."
+    }
+  ],
+  "metadata": {
+    "total_words": 20,
+    "criteria": "Graduate/PhD reading level, Latin/Greek derived, technical/archaic/literary, legal/economic vocabulary",
+    "extracted_date": "2026-03-18",
+    "source_transcripts": [
+      "ronny-chieng-asian-comedian-destroys-america-2019-transcript.md",
+      "Ronny-Chieng-Love-to-Hate-It-2024-Transcript.md"
+    ]
+  }
+}

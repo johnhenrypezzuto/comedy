@@ -1,0 +1,227 @@
+{
+  "title": "Jimmy Carr: Sophisticated Vocabulary",
+  "description": "Graduate-level vocabulary from Jimmy Carr's stand-up comedy, featuring British formal vocabulary with dark humor, wordplay, and clever puns.",
+  "source_specials": [
+    {
+      "title": "Natural Born Killer",
+      "year": 2024,
+      "image": "images/jimmy-carr-natural-born-killer.jpg"
+    },
+    {
+      "title": "Funny Business",
+      "year": 2016,
+      "image": "images/jimmy-carr-funny-business.jpg"
+    },
+    {
+      "title": "Laughing and Joking",
+      "year": 2013,
+      "image": "images/jimmy-carr-laughing-and-joking.jpg"
+    }
+  ],
+  "words": [
+    {
+      "word": "mercurial",
+      "pronunciation": "/mərˈkjʊərɪəl/",
+      "part_of_speech": "adjective",
+      "definition": "Subject to sudden or unpredictable changes of mood or mind; volatile, capricious.",
+      "etymology": "Latin: Mercurius (Mercury), the swift-moving Roman messenger god",
+      "example": "She'll give you some kind of mercurial, strange reason as to why you couldn't possibly have sex at this moment in time.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr uses this sophisticated term to describe women's excuses for avoiding intimacy, elevating mundane relationship comedy with literary vocabulary.",
+      "image": "images/mercurial.jpg"
+    },
+    {
+      "word": "esoteric",
+      "pronunciation": "/ˌɛsə(ʊ)ˈtɛrɪk/",
+      "part_of_speech": "adjective",
+      "definition": "Intended for or likely to be understood by only a small number of people with specialized knowledge.",
+      "etymology": "Greek: esōterikos (belonging to an inner circle)",
+      "example": "Every year my friend Chris does illustrations for me, for jokes that I write that I think are a bit esoteric, that require a visual element to be fully enjoyed.",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr employs this academic term to describe his more obscure jokes, creating ironic contrast between highbrow vocabulary and crude punchlines.",
+      "image": "images/esoteric.jpg"
+    },
+    {
+      "word": "cognitive dissonance",
+      "pronunciation": "/ˈkɒɡnɪtɪv dɪs(ə)nəns/",
+      "part_of_speech": "noun phrase",
+      "definition": "The state of having inconsistent thoughts, beliefs, or attitudes, especially relating to behavioral decisions and attitude change.",
+      "etymology": "Latin: cognoscere (to know) + dissonantia (disagreement)",
+      "example": "If we're gonna be fancy about it, it's cognitive dissonance. It's two opposing thoughts in my head at the same time. I think, 'It's wrong. It's funny.'",
+      "source": "Funny Business (2016)",
+      "context": "Carr deploys this psychological term to intellectualize his moral conflict about telling offensive jokes, creating comedy through academic self-analysis.",
+      "image": "images/cognitive-dissonance.jpg"
+    },
+    {
+      "word": "risible",
+      "pronunciation": "/ˈrɪzɪb(ə)l/",
+      "part_of_speech": "adjective",
+      "definition": "Such as to provoke laughter; laughable. Also: deserving or inviting mockery.",
+      "etymology": "Latin: risus (laughter) + -ibilis (-ible)",
+      "example": "I joke a lot about sexism and misogyny, just because I view them as ridiculous, sort of, risible things in our society.",
+      "source": "Funny Business (2016)",
+      "context": "A quintessentially British formal word, 'risible' elevates Carr's discussion of taboo subjects with archaic literary flair.",
+      "image": "images/risible.jpg"
+    },
+    {
+      "word": "gerontophile",
+      "pronunciation": "/ˌdʒɛrɒnˈtɒfɪl/",
+      "part_of_speech": "noun",
+      "definition": "A person who is sexually attracted to elderly people.",
+      "etymology": "Greek: geron (old man) + philia (love, attraction)",
+      "example": "Gerontophiles. If you're not familiar with the term, gerontophiles are people that find the very elderly sexually attractive. I know. Bit of a mouthful, isn't it? Gerontophile. I prefer to call them OAPaedos.",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr introduces this clinical Greek-derived term only to immediately undercut it with his crude coinage 'OAPaedos', exemplifying his high-low vocabulary juxtaposition.",
+      "image": "images/gerontophile.jpg"
+    },
+    {
+      "word": "dysphoria",
+      "pronunciation": "/dɪsˈfɔːrɪə/",
+      "part_of_speech": "noun",
+      "definition": "A state of unease or generalized dissatisfaction; in clinical contexts, gender dysphoria refers to distress from gender identity mismatch.",
+      "etymology": "Greek: dysphoros (hard to bear)",
+      "example": "So there's now more pronouns than there ever used to be... And I'm very onboard. I will call you what you want to be called. I will treat you with respect always. But I'm also gonna make jokes about it. My pronouns are 'he he he' because I identify as a comedian.",
+      "source": "Natural Born Killer (2024)",
+      "context": "While discussing gender dysphoria and non-binary pronouns, Carr uses clinical terminology as setup for wordplay about his own 'comedic identity'.",
+      "image": "images/dysphoria.jpg"
+    },
+    {
+      "word": "palliative",
+      "pronunciation": "/ˈpalɪətɪv/",
+      "part_of_speech": "adjective",
+      "definition": "Relieving pain or alleviating a problem without dealing with the underlying cause; in medicine, care for terminally ill patients.",
+      "etymology": "Latin: palliare (to cloak, conceal)",
+      "example": "I got that call about six years ago. I said, 'Yeah, I'll go.' I didn't know what some of those words meant. I thought, 'It sounds all right. Teenagers. I imagine that'll be fun.' Now, it transpires 'palliative' translates to 'dying'.",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr's confession of not understanding this medical term becomes the foundation for dark comedy about visiting a hospice for terminally ill teenagers.",
+      "image": "images/palliative.jpg"
+    },
+    {
+      "word": "autoerotic asphyxiation",
+      "pronunciation": "/ˌɔːtəʊɪˈrɒtɪk ˌasfɪksɪˈeɪʃ(ə)n/",
+      "part_of_speech": "noun phrase",
+      "definition": "The practice of inducing oxygen deprivation during masturbation to enhance sexual pleasure.",
+      "etymology": "Greek: autos (self) + erōs (love) + Latin: asphyxia (stopping of pulse)",
+      "example": "If you strangle yourself during sex, it's called autoerotic asphyxiation. If you do it to someone else, it's called a serious sexual assault. My bad.",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr juxtaposes this clinical forensic term with his characteristically dark punchline, creating comedy through technical vocabulary and moral non-sequitur.",
+      "image": "images/autoerotic-asphyxiation.jpg"
+    },
+    {
+      "word": "willowy",
+      "pronunciation": "/ˈwɪləʊi/",
+      "part_of_speech": "adjective",
+      "definition": "Tall, slender, and graceful; resembling a willow tree in suppleness.",
+      "etymology": "Old English: welig (willow tree) + -y",
+      "example": "I'm sat on the Piazza there, having a cup of tea, minding my business. This beautiful, willowy-looking girl walks in, sits opposite me, and just keeps on looking over.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr employs this poetic, literary adjective to describe an attractive woman, using elevated vocabulary before subverting expectations with dark age-gap humor.",
+      "image": "images/willowy.jpg"
+    },
+    {
+      "word": "transgressive",
+      "pronunciation": "/tranzˈɡrɛsɪv/",
+      "part_of_speech": "adjective",
+      "definition": "Involving a violation of accepted or imposed boundaries, especially in social or moral contexts.",
+      "etymology": "Latin: transgressus (to step across)",
+      "example": "I get away with murder in jokes. I think 'cause they're so clearly jokes... But actually, my dirty secret is, sometimes... I'll just go, 'Well, that isn't transgressive, or taboo, or edgy. That's just wrong.'",
+      "source": "Funny Business (2016)",
+      "context": "Carr uses this academic critical theory term to analyze his own comedy, creating meta-commentary on transgression and offensiveness.",
+      "image": "images/transgressive.jpg"
+    },
+    {
+      "word": "ovulating",
+      "pronunciation": "/ˈɒvjʊleɪtɪŋ/",
+      "part_of_speech": "verb (present participle)",
+      "definition": "Releasing an egg from the ovary; the fertile phase of the menstrual cycle.",
+      "etymology": "Latin: ovulum (little egg) + -ate",
+      "example": "Jacob, do you know how to tell when a woman is ovulating? You can tell when a woman is ovulating, Jacob, she'll fuck you. Basically, when she's ovulating, her pussy is eating her thigh.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr deploys this biological/medical term as setup for crude evolutionary psychology humor, contrasting clinical vocabulary with graphic descriptions.",
+      "image": "images/ovulating.jpg"
+    },
+    {
+      "word": "cachet",
+      "pronunciation": "/ˈkaʃeɪ/",
+      "part_of_speech": "noun",
+      "definition": "The state of being respected or admired; prestige, distinction.",
+      "etymology": "French: cachet (seal, stamp)",
+      "example": "If I go to Starbucks... if there's a group of 15-year-old girls in the coffee shop, they'll be really flirty with me, not because I'm some super-attractive dude, but because I'm a celebrity, and there's a cachet to celebrity in our society.",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr uses this sophisticated French-derived term to discuss celebrity culture, elevating his social commentary before undercutting it with dark humor.",
+      "image": "images/cachet.jpg"
+    },
+    {
+      "word": "conflated",
+      "pronunciation": "/kənˈfleɪtɪd/",
+      "part_of_speech": "verb (past participle)",
+      "definition": "Combined two or more ideas, texts, or concepts into one, often erroneously.",
+      "etymology": "Latin: conflare (to blow together, fuse)",
+      "example": "And really, there's two issues. There's trans, and there's non-binary. And they often get conflated in our media, but they're very separate issues.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr employs this academic term to discuss nuanced distinctions in gender identity discourse, using formal vocabulary to establish credibility before wordplay.",
+      "image": "images/conflated.jpg"
+    },
+    {
+      "word": "inherently",
+      "pronunciation": "/ɪnˈhɪərəntli/",
+      "part_of_speech": "adverb",
+      "definition": "In a permanent, essential, or characteristic way; intrinsically.",
+      "etymology": "Latin: inhaerere (to stick in, cling to)",
+      "example": "Look, kids, 'stepdad' is an inherently disrespectful term. From here on in, 'motherfucker'.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr uses this formal philosophical adverb to lend false academic weight to his profane redefinition of 'stepdad', creating comedy through register clash.",
+      "image": "images/inherently.jpg"
+    },
+    {
+      "word": "fundamentalist",
+      "pronunciation": "/ˌfʌndəˈmɛnt(ə)lɪst/",
+      "part_of_speech": "noun/adjective",
+      "definition": "A person who believes in the strict literal interpretation of religious scriptures; characterized by such beliefs.",
+      "etymology": "Latin: fundamentum (foundation) + -ist",
+      "example": "I've never really understood it. Why would you become an Islamic fundamentalist suicide bomber on the off-chance you might get 72 virgins when you die? Become a Catholic priest and have them now.",
+      "source": "Funny Business (2016)",
+      "context": "Carr uses this theological/political science term to discuss religious extremism, employing formal vocabulary to frame controversial comparative religion humor.",
+      "image": "images/fundamentalist.jpg"
+    },
+    {
+      "word": "heterosexual",
+      "pronunciation": "/ˌhɛtərə(ʊ)ˈsɛksjʊəl/",
+      "part_of_speech": "adjective/noun",
+      "definition": "Sexually attracted to people of the opposite sex.",
+      "etymology": "Greek: heteros (other, different) + Latin: sexus (sex)",
+      "example": "Let's hear from all the heterosexual men in the room. Give us a shout, all the heterosexual men. I'm guessing, from that expression... 'I can't remember which one heterosexual is.'",
+      "source": "Laughing and Joking (2013)",
+      "context": "Carr uses this clinical sexological term formally, then immediately mocks audience members who might not understand the technical vocabulary.",
+      "image": "images/heterosexual.jpg"
+    },
+    {
+      "word": "Cesarean",
+      "pronunciation": "/sɪˈzɛərɪən/",
+      "part_of_speech": "adjective/noun",
+      "definition": "Relating to surgical delivery of a baby through incisions in the abdomen and uterus.",
+      "etymology": "Latin: Caesar (possibly from Julius Caesar, though etymology disputed)",
+      "example": "34 weeks into the pregnancy, we had a medical emergency. We got rushed to hospital, we had to have an emergency Cesarean section at 34 weeks, which was gut-wrenching.",
+      "source": "Natural Born Killer (2024)",
+      "context": "Carr uses this medical terminology when discussing his premature son's birth, employing clinical vocabulary to discuss deeply personal experience before dark comedy.",
+      "image": "images/cesarean.jpg"
+    },
+    {
+      "word": "superstition",
+      "pronunciation": "/ˌsuːpəˈstɪʃ(ə)n/",
+      "part_of_speech": "noun",
+      "definition": "Excessively credulous belief in and reverence for supernatural beings; irrational religious belief.",
+      "etymology": "Latin: superstitio (standing over, amazement)",
+      "example": "Oh, here's an interesting fact. The most common superstition in Britain today is a belief in horoscopes. And there's a name for people that believe in horoscopes. They're called single women.",
+      "source": "Funny Business (2016)",
+      "context": "Carr employs this anthropological term to frame his misanthropic observation about horoscope believers, using academic vocabulary to dress up cruel humor.",
+      "image": "images/superstition.jpg"
+    }
+  ],
+  "metadata": {
+    "total_words": 18,
+    "created": "2026-03-18",
+    "curator": "jimmy-carr-extract subagent",
+    "notes": "Words selected from three Jimmy Carr specials (2013-2024) based on: (1) graduate/PhD reading level, (2) Latin/Greek etymology or technical/literary register, (3) Carr's signature British formal vocabulary with dark humor juxtaposition. Image paths are placeholders from scrapsfromtheloft.com."
+  }
+}

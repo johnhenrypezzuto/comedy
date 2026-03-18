@@ -1,0 +1,173 @@
+{
+  "comedian": "Mike Birbiglia",
+  "style": "Storytelling, self-deprecating, thoughtful, literary-reflective",
+  "sources": [
+    {
+      "special": "The Good Life",
+      "year": 2025,
+      "image": "images/mike-birbiglia-the-good-life-2025-transcript.webp"
+    },
+    {
+      "special": "The Old Man and the Pool",
+      "year": 2023,
+      "image": "images/mike-birbiglia-old-man-and-pool-2023.webp"
+    },
+    {
+      "special": "The New One",
+      "year": 2019,
+      "image": "images/mike-birbiglia-the-new-one-2019-transcript.webp"
+    }
+  ],
+  "words": [
+    {
+      "word": "hypotonic",
+      "definition": "Abnormally low muscle tone; dangerously dehydrated or lacking normal tension",
+      "etymology": "Greek: hypo- (under) + tonos (tension)",
+      "source": "The Good Life (2025)",
+      "context": "I was hypotonic, which means I was dangerously dehydrated.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "canonized",
+      "definition": "Officially declared a saint by the Catholic Church; elevated to authoritative status",
+      "etymology": "Latin: canonizare, from kanōn (rule, standard)",
+      "source": "The Good Life (2025)",
+      "context": "And then they get canonized, if you're lucky, and chances are you find out five minutes before you die.",
+      "category": "Religious/Literary"
+    },
+    {
+      "word": "mythological",
+      "definition": "Relating to myths or mythology; legendary, larger than life",
+      "etymology": "Greek: mythos (story) + -logia (study of)",
+      "source": "The Good Life (2025)",
+      "context": "He was almost like a mythological creature.",
+      "category": "Literary"
+    },
+    {
+      "word": "neurologist",
+      "definition": "A physician specializing in disorders of the nervous system",
+      "etymology": "Greek: neuron (nerve) + -logist (one who studies)",
+      "source": "The Good Life (2025)",
+      "context": "And the neurologist came in, and she goes, 'Vince! We're going to do a spinal tap.'",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "hemispheres",
+      "definition": "Half of a sphere; specifically the two halves of the brain",
+      "etymology": "Greek: hemi- (half) + sphaira (sphere)",
+      "source": "The Good Life (2025)",
+      "context": "He took out a three-dimensional model of the brain, explained the hemispheres of the brain.",
+      "category": "Scientific/Anatomical"
+    },
+    {
+      "word": "buoyancy",
+      "definition": "The ability to float in water; resilience, cheerfulness",
+      "etymology": "Latin: boya (float) + -ancy (state of)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "Then your body sort of floats to the top 'cause the human body has neutral buoyancy.",
+      "category": "Scientific/Physics"
+    },
+    {
+      "word": "comorbidities",
+      "definition": "The simultaneous presence of two or more medical conditions in a patient",
+      "etymology": "Latin: com- (together) + morbus (disease) + -ity (state)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "They're both comorbidities, and the thing about comorbidities, sometimes they team up to form a single morbidity.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "cystoscopy",
+      "definition": "Endoscopic examination of the bladder using a cystoscope inserted through the urethra",
+      "etymology": "Greek: kystis (bladder) + skopein (to examine)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "I'll have you come into the hospital tomorrow morning and give you anesthesia for a cystoscopy.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "malignant",
+      "definition": "Cancerous; tending to become progressively worse and cause death",
+      "etymology": "Latin: malignus (wicked, harmful)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "It was a malignant tumor in my bladder, but I actually was very lucky 'cause they caught it early.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "embalmed",
+      "definition": "Preserved from decay with chemicals, especially for burial",
+      "etymology": "Latin: in- (into) + balsamum (balsam, aromatic resin)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "I remember being at the church, looking at his body, and it's embalmed.",
+      "category": "Archaic/Funerary"
+    },
+    {
+      "word": "taxidermy",
+      "definition": "The art of preserving and mounting animal skins for display",
+      "etymology": "Greek: taxis (arrangement) + derma (skin)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "If we're gonna manipulate the body, why not taxidermy?",
+      "category": "Technical/Archaic"
+    },
+    {
+      "word": "judicious",
+      "definition": "Having or showing good judgment; wise and careful",
+      "etymology": "Latin: judicium (judgment) + -ous (full of)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "It is to be judicious with the length of one's breath when holding one's breath.",
+      "category": "Literary/Formal"
+    },
+    {
+      "word": "pulmonary",
+      "definition": "Relating to or affecting the lungs",
+      "etymology": "Latin: pulmonarius, from pulmo (lung)",
+      "source": "The Old Man and the Pool (2023)",
+      "context": "It's a pulmonary test, and there's a ball in the tube, and it simulates blowing out a candle.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "varicocele",
+      "definition": "Abnormal enlargement of veins within the scrotum",
+      "etymology": "Latin: varix (dilated vein) + Greek: kēlē (tumor, swelling)",
+      "source": "The New One (2019)",
+      "context": "You're gonna have to have what's called a varicocele repair.",
+      "category": "Medical/Technical"
+    },
+    {
+      "word": "holistic",
+      "definition": "Characterized by belief that parts of something are interconnected and can only be understood as a whole",
+      "etymology": "Greek: holos (whole) + -istic (pertaining to)",
+      "source": "The New One (2019)",
+      "context": "We went to this holistic birthing education class, which wasn't a great fit.",
+      "category": "Philosophical/Modern"
+    },
+    {
+      "word": "causality",
+      "definition": "The relationship between cause and effect; the principle that everything has a cause",
+      "etymology": "Latin: causa (cause) + -ality (state of)",
+      "source": "The New One (2019)",
+      "context": "It's that your dad maybe didn't want to be a dad, and he doesn't understand causality that well.",
+      "category": "Philosophical/Technical"
+    },
+    {
+      "word": "trajectory",
+      "definition": "The path followed by an object in motion; the course or direction of something",
+      "etymology": "Latin: trajectus (thrown across) + -ory (pertaining to)",
+      "source": "The New One (2019)",
+      "context": "I feel like she might be one of the people who changes that trajectory.",
+      "category": "Scientific/Literary"
+    },
+    {
+      "word": "congregation",
+      "definition": "A gathering of people for religious worship; an assembly or collection",
+      "etymology": "Latin: congregare (to gather together)",
+      "source": "The New One (2019)",
+      "context": "In our house, there is always a congregation of ants summiting around a noodle.",
+      "category": "Religious/Literary"
+    }
+  ],
+  "metadata": {
+    "total_words": 18,
+    "created": "2026-03-18",
+    "reading_level": "Graduate/PhD",
+    "notes": "Birbiglia's vocabulary reflects his conversational storytelling style punctuated by medical terminology (from his health issues), philosophical reflection (on mortality, parenthood, family), and occasional literary/religious references. Words selected demonstrate Latin/Greek etymology, technical precision, and thoughtful introspection characteristic of his comedy."
+  }
+}
